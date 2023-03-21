@@ -1,11 +1,7 @@
-# Awesome_books
-# Ruby-on-rails-bootcamp
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <img src="assets/deola_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>Awesome books</b></h3>
 
@@ -37,37 +33,20 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome_books] <a name="about-project"></a>
 
-> First pair programming project of the second module.
+**[Awesome_books]** This project is basic website that allows users to add/remove books from a list you can write the author and the title of the book to add them in array and it will display at the page.
 
-**[Awesome_books]** is a project
-
-## 🛠 Built With <a name="HTML, CSS, Bootstrap and Javascript"></a>
+## 🛠 Built With <a name="HTML, CSS, and Javascript"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/#What_is_HTML">"index.html" and "about.html"</a></li>
-    <li><a href="https://html.com/css/#What_is_CSS">"style.css" and "about.css"</a></li>
-    <li><a href="https://www.javascript.com/">"script.js"</a></li>
-    <li><a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Bootstrap</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://github.com/">Github</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://html.com/#What_is_HTML">"HTML"</a></li>
+    <li><a href="https://html.com/css/#What_is_CSS">"CSS"</a></li>
+    <li><a href="https://www.javascript.com/">"script.Javascript"</a></li>
   </ul>
 </details>
 
@@ -75,20 +54,20 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsiveness]**
-- **[Good_UI]**
-- **[Accessibility_passed]**
-- **[Accessibility_passed]**
-- **[No_linters_errors]**
-- **[Use_of_correct_github_workflow]**
+- [x] Create a collection that keeps a list of book
+- [x] Create a function to add a new book to the collection, with title and author.
+- [x] Create a function to remove a book from the collection.💯
+- [x] Display all books saved in the collection in the top part of the page.
+- [x] when a user clicks the "Add" button [A new book is added to the collection.] (The new book is displayed in the page)
+- [x] the data is preserved in the browser's memory by using localStorage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-- [#](#)
+<!-- - [Coming soon](#) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,52 +76,68 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
+  
+  
 ### Prerequisites
 
 In order to run this project you need:
-
-- **Visual Studio Code**
-- **Git Bash**
+  Open terminal on the same folder of the project and run:
+```sh
+ npm install
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-- **cd your-folder**
-- **git clone https://github.com/yaredtekle022/Awesome_books.git**
-
+```sh
+  git clone https://github.com/yaredtekle022/Awesome_books.git
+  cd Awesome_books
+```
 ### Install
 
 Install this project with:
-
-- **sh cd my-project gem install**
+```sh
+  npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
 
-- **sh rails server**
+```
+1. download the project from clone 
+2. open live server for the project
+3. You can see it in the browser
+```
+
+<!-- ### Build for production
+
+```
+npm run build
+``` -->
 
 ### Run tests
 
+- ### Linter Tests
+
 To run tests, run the following command:
 
-- **sh rails test/**
-
-### Deployment
-
-You can deploy this project using:
-
-- **GitHub Pages**
-
+To check for html errors run:
+```sh
+  npx hint .
+```
+To check for css errors run:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+To check for js errors run:
+```sh
+  npx eslint .
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Abdel-Khafid SALAOU**
 
@@ -162,11 +157,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [x] Add test to the project using jest 
+- [x] Add the live demo for the project
+- [x] Add new some features to the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,13 +185,13 @@ If you like this feel free to follow me on github and give this project a star..
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+Thanks to the code reviewers hat are helping us to improve and to all the microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
@@ -209,7 +202,7 @@ If you like this feel free to follow me on github and give this project a star..
 - **[How_to_contact_you]**
 
   - [Follow_me_on_Github]
-
+ -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -218,7 +211,4 @@ If you like this feel free to follow me on github and give this project a star..
 
 This project is [MIT](./LICENSE.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
